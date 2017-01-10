@@ -12,7 +12,7 @@ class GetFirstPage():
         self.driver.implicitly_wait(10)
         self.driver.maximize_window()
         self.driver.get(website)
-		self.test = 1
+		self.test = 2
 
     def GetHotStartContinent(self):
         startcityxpath = '//*[@id="bgList"]/div[1]/div[1]/div[3]/div/form/div/div[2]/div[1]/div[1]/label/input'
